@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e7dfcf;
+  font-family: "Montserrat", sans-serif;
+  color: #2c2d2a;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #b9b2a2;
+  margin-bottom: 50px;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+}
+
+.header-hamburguer {
+  margin-right: 15px;
+}
+
+.navegacion-item {
+  text-decoration: none;
+  color: #2c2d2a;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+.header-icon {
+  margin-left: 15px;
+}
+
+/* .hijo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+} */
+
+.padre {
+	display: flex;
+	gap: 10px;
+	justify-content: space-between;
+  height: 700px;
+}
+
+.hijo1{
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.titulo{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+}
+
+.hijo2{
+	width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .botellas {
+	justify-content: center;
+	align-items: center;
+} */
+
+.hijo3{
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: right;
+}
+
+.flecha-iz{
+	transform: rotate(180deg);
+  border-radius: 50px;
+  border: 1px solid rgb(68, 67, 63);
+}
+
+.flecha-de{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid rgb(68, 67, 63);
+  margin-left: 25px;
+}
